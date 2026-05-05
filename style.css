@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 @media(min-width: 1024px){
-  body{
+  img{
     flex-direction: row;
   }
 }
