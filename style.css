@@ -4,6 +4,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+@media(min-width: 1024px){
+  body{
+    flex-direction: column;
+  }
+}
 body{
   background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
   url("restaurant.jpg");
