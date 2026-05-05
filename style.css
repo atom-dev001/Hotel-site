@@ -6,7 +6,7 @@
 }
 @media(min-width: 1024px){
   body{
-    flex-direction: column;
+    flex-direction: row;
   }
 }
 body{
