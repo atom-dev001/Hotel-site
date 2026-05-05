@@ -1,7 +1,9 @@
-body{
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+body{
   background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
   url("restaurant.jpg");
   background-position: center;
