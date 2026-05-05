@@ -1,10 +1,10 @@
 *{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
   font-size: 1rem;
 }
 body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
   url("restaurant.jpg");
   background-position: center;
@@ -89,8 +89,8 @@ i{
   padding: 10px;
 }
 img{
-  width: 50%;
-  height: 50%;
+  width: 300px;
+  height: 300px;
   padding: 12px;
 }
 button{
