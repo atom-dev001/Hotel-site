@@ -1,0 +1,165 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+  url("restaurant.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ul{
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+ gap: 50px;
+ list-style: none;
+}
+.nav{
+  background: black;
+  height: 50px;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+}
+a{
+  color: white;
+  align-items: center;
+  text-decoration-line: none;
+}
+#About-section{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  line-height: 1.8;
+  text-indent: 30px;
+  word-spacing: 2px;
+  font-family: fantasy;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+  font-weight: 400;
+}
+
+#services-section{
+  background-color: #1F1F22;
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
+.service-content{
+  background-color: #131315;
+  text-align: center;
+  padding: 50px;
+  border: 1px solid #131315;
+  margin: 15px;
+  border-radius: 5px;
+ 
+}
+.our{
+  padding: 50px;
+  text-align: center;
+  word-spacing: 5px;
+  font-size: 30px;
+}
+i{
+  font-size: 50px;
+}
+.text{
+  color: goldenrod;
+}
+.text2{
+  line-height: 1.6;
+  word-spacing: 2px;
+  text-align: center;
+  font-family: sans-serif;
+}
+.stays-section{
+  background-color: black;
+  color: white;
+  padding: 5px;
+}
+.rooms{
+  padding: 10px;
+}
+img{
+  width: 450px;
+  height: 400px;
+  padding: 12px;
+}
+button{
+  background: gold;
+  padding: 5px;
+  border-radius: 5px;
+}
+button:hover{
+  background: goldenrod;
+ 
+}
+.stays{
+  padding: 30px;
+}
+
+#contact-us{
+  text-align: center;
+  background-color: #141417;
+  color: white;
+  padding: 15px;
+  
+}
+input,textarea{
+  width: 90%;
+  background: #252429;
+  padding: 15px;
+  margin: 10px; 
+  border-radius: 5px;
+}
+.btn{
+  padding: 15px;
+  width: 95%;
+  margin-left: 8px;
+  font-family: sans-serif;
+}
+.connect{
+  padding: 20px;
+}
+.bold{
+  color: goldenrod;
+  line-height: 1.8; 
+  font-family: sans-serif;
+  margin-bottom: 50px;
+}
+
+  
+  .fa-phone,.fa-whatsapp,.fa-location-dot{
+    font-size: 20px;
+    vertical-align: center;
+  }
+
+footer{
+  text-align: center;
+  background: black;
+  color: white;
+  padding: 5px;
+  color:#63626C;
+  border-top: 1px solid #63626C ;
+  font-size: 15px;
+}
+
+.footer-nav{
+  padding: 7px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  
+}
+.sanctuary{
+  color: goldenrod;
+  padding-top: 40px ;
+}
+.foot{
+  border-bottom: 1px solid #63626C;
+}
