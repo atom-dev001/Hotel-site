@@ -6,7 +6,8 @@
 }
 @media(min-width: 1024px){
   img{
-    flex-direction: row;
+    display: flex;
+    gap: 20px;
   }
 }
 body{
